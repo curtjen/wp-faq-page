@@ -8,7 +8,7 @@ function wpfp_scripts() {
 		'0.2',
 		true
 	);
-	wp_enqueue_style( 'wpfp-style', WPFP_BASE_URL . '/css/default.css' );
+	wp_enqueue_style( 'wpfp-style', WPFP_BASE_URL . 'css/default.css' );
 }
 
 add_action( 'wp_enqueue_scripts', 'wpfp_scripts' );
