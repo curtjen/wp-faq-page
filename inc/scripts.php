@@ -5,8 +5,8 @@ function wpfp_scripts() {
 		'wpfp-accordion',
 		WPFP_BASE_URL . 'js/accordion.js',
 		array( 'jquery' ),
-        '0.2',
-        true
+		'0.2',
+		true
 	);
 	wp_enqueue_style( 'wpfp-style', WPFP_BASE_URL . '/css/default.css' );
 }
